@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";\n",
+		".current {\n  color: green;\n}\n\nimg {\n    max-width: 100%;\n    height: auto;\n}\n\n.split {\n  height: 100%;\n  width: 50%;\n  position: fixed;\n  z-index: 1;\n  top: 0;\n  overflow-x: hidden;\n  padding-top: 20px;\n}\n\n.left {\n  left: 0;\n  background-color: #111;\n}\n\n.right {\n  right: 0;\n  background-color: red;\n}\n\n"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACP,KAAK,EAAE,KAAK,GACb;;AAED,AAAA,GAAG,CAAC,EACA,SAAS,EAAE,IAAI,EACf,MAAM,EAAE,IAAI,GACf;;AAED,AAAA,MAAM,CAAC,EACL,MAAM,EAAE,IAAI,EACZ,KAAK,EAAE,GAAG,EACV,QAAQ,EAAE,KAAK,EACf,OAAO,EAAE,CAAC,EACV,GAAG,EAAE,CAAC,EACN,UAAU,EAAE,MAAM,EAClB,WAAW,EAAE,IAAI,GAClB;;AAED,AAAA,KAAK,CAAC,EACJ,IAAI,EAAE,CAAC,EACP,gBAAgB,EAAE,IAAI,GACvB;;AAED,AAAA,MAAM,CAAC,EACL,KAAK,EAAE,CAAC,EACR,gBAAgB,EAAE,GAAG,GACtB"
+}
