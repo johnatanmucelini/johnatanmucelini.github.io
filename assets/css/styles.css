@@ -13,14 +13,16 @@ img {
 }
 
 .left {
-  padding-top: 10px;
-  background-color: #cacfd2;
+  /*padding-top: 10px;*/
+  padding-right: 10px;
+  /*background-color: #cacfd2;*/
   width: 200px;
   flex: 0 0 200px;
   text-align: center;
 }
 
 .right {
+  padding-left: 10px;
   padding-top: 10px;
   background-color: #f2f3f4;
   flex-grow: 1;
