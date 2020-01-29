@@ -16,22 +16,21 @@ img {
 }
 
 .split {
+  max-width: 1000px;
+  margin: auto;
   display: flex;
-/*  background: #f2f3f4;*/
 }
 
 .left {
-  /*padding-top: 10px;*/
-  padding-right: 10px;
-  /*background-color: #cacfd2;*/
+  /*padding-right: 10px;*/
   width: 200px;
   flex: 0 0 200px;
   text-align: center;
 }
 
 .right {
-  padding-left: 10px;
-  padding-top: 10px;
+  /*padding-left: 10px;*/
+  /*padding-top: 10px;*/
   background-color: #f2f3f4;
   flex-grow: 1;
 }
