@@ -1,5 +1,5 @@
 .current {
-  color: green;
+  color: #686979;
 }
 
 li{
@@ -15,6 +15,10 @@ img {
     height: auto;
 }
 
+.hspace{
+    margin-bottom:2.5cm;
+}
+
 .split {
   max-width: 1000px;
   margin: auto;
@@ -22,16 +26,17 @@ img {
 }
 
 .left {
-  /*padding-right: 10px;*/
+  padding-top:30px;
+  padding-right: 50px;
   width: 200px;
   flex: 0 0 200px;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .right {
   /*padding-left: 10px;*/
   /*padding-top: 10px;*/
-  background-color: #f2f3f4;
+  background-color: #ffffff;
   flex-grow: 1;
 }
 
