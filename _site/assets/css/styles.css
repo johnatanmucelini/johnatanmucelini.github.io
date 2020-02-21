@@ -1,0 +1,60 @@
+@import "monokai.css"
+
+.current {
+  color: #686979;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+li{
+    margin: 10px 0px;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hspace{
+    margin-bottom:2.5cm;
+}
+
+.split {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+}
+
+.left {
+  padding-top:30px;
+  padding-right: 50px;
+  width: 200px;
+  flex: 0 0 200px;
+  /*text-align: center;*/
+}
+
+.right {
+  /*padding-left: 10px;*/
+  /*padding-top: 10px;*/
+  background-color: #ffffff;
+  flex-grow: 1;
+}
+
+@media all and (max-width:400px){
+  .split {
+    flex-wrap: wrap;
+  }
+  .left {
+    order: 1;
+  }
+  .right { 
+    order: 2;
+    min-width: 100%;
+  }
+}
