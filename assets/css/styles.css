@@ -1,5 +1,11 @@
+@import "monokai.css"
+
 .current {
   color: #686979;
+}
+
+html {
+    overflow-y: scroll;
 }
 
 li{
