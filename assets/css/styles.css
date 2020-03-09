@@ -1,7 +1,7 @@
-@import "monokai.css"
+/*@import "monokai.css"*/
 
-.current {
-  color: #686979;
+.title {
+  font-size: x-large;
 }
 
 html {
