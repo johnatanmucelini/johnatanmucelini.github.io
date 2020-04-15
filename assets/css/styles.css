@@ -28,6 +28,8 @@ img {
 .split {
   max-width: 1000px;
   margin: auto;
+  padding-right: 30px;
+  padding-left: 50px;
   display: flex;
 }
 
