@@ -1,7 +1,7 @@
 @import "native.css";
 
 .title {
-  font-size: x-large;
+  font-size: large;
 }
 
 html {
@@ -25,17 +25,21 @@ img {
     margin-bottom:2.5cm;
 }
 
+.smallhspace{
+    margin-bottom:1.25cm;
+}
+
 .split {
   max-width: 1000px;
   margin: auto;
-  padding-right: 30px;
-  padding-left: 50px;
+  padding-right: 10px;
+  padding-left: 10px;
   display: flex;
 }
 
 .left {
-  padding-top:30px;
-  padding-right: 30px;
+  padding-top:10px;
+  padding-right: 10px;
   width: 200px;
   flex: 0 0 200px;
   /*text-align: center;*/
