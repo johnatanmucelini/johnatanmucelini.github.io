@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";\n",
+		"@import \"native.css\";\n\n.title {\n  font-size: large;\n}\n\nhtml {\n    overflow-y: scroll;\n}\n\nli{\n    margin: 10px 0px;\n}\n\nul {\n    list-style-type: disc;\n}\n\nimg {\n    max-width: 100%;\n    height: auto;\n}\n\n.hspace{\n    margin-bottom:2.5cm;\n}\n\n.split {\n  max-width: 1000px;\n  margin: auto;\n  padding-right: 10px;\n  padding-left: 10px;\n  display: flex;\n}\n\n.left {\n  padding-top:10px;\n  padding-right: 10px;\n  width: 200px;\n  flex: 0 0 200px;\n  /*text-align: center;*/\n}\n\n.right {\n  /*padding-left: 10px;*/\n  /*padding-top: 10px;*/\n  background-color: #ffffff;\n  flex-grow: 1;\n}\n\n@media all and (max-width:400px){\n  .split {\n    flex-wrap: wrap;\n  }\n  .left {\n    order: 1;\n  }\n  .right { \n    order: 2;\n    min-width: 100%;\n  }\n}\n"
+	],
+	"names": [],
+	"mappings": "ACAA,OAAO,CAAP,eAAO;AAEP,AAAA,MAAM,CAAC,EACL,SAAS,EAAE,KAAK,GACjB;;AAED,AAAA,IAAI,CAAC,EACD,UAAU,EAAE,MAAM,GACrB;;AAED,AAAA,EAAE,CAAA,EACE,MAAM,EAAE,QAAQ,GACnB;;AAED,AAAA,EAAE,CAAC,EACC,eAAe,EAAE,IAAI,GACxB;;AAED,AAAA,GAAG,CAAC,EACA,SAAS,EAAE,IAAI,EACf,MAAM,EAAE,IAAI,GACf;;AAED,AAAA,OAAO,CAAA,EACH,aAAa,EAAC,KAAK,GACtB;;AAED,AAAA,MAAM,CAAC,EACL,SAAS,EAAE,MAAM,EACjB,MAAM,EAAE,IAAI,EACZ,aAAa,EAAE,IAAI,EACnB,YAAY,EAAE,IAAI,EAClB,OAAO,EAAE,IAAI,GACd;;AAED,AAAA,KAAK,CAAC,EACJ,WAAW,EAAC,IAAI,EAChB,aAAa,EAAE,IAAI,EACnB,KAAK,EAAE,KAAK,EACZ,IAAI,EAAE,SAAS,EACf,uBAAuB,EACxB;;AAED,AAAA,MAAM,CAAC,EACL,uBAAuB,CACvB,sBAAsB,CACtB,gBAAgB,EAAE,OAAO,EACzB,SAAS,EAAE,CAAC,GACb;;AAED,MAAM,CAAC,GAAG,MAAM,SAAS,EAAE,KAAK,IAC9B,AAAA,MAAM,CAAC,EACL,SAAS,EAAE,IAAI,GAChB;EACD,AAAA,KAAK,CAAC,EACJ,KAAK,EAAE,CAAC,GACT;EACD,AAAA,MAAM,CAAC,EACL,KAAK,EAAE,CAAC,EACR,SAAS,EAAE,IAAI,GAChB"
+}
