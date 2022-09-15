@@ -162,9 +162,9 @@ Currently, I am working on developing models that facilitate the extraction of k
     <iframe width="600" height="338" src="https://www.youtube.com/embed/kPO1N6Iggio" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p class="smallhspace"> </p>
   </li>
-  <li>    
-    <img src="/assets/images/007_instagram.png" alt="priscilla_nanoclusters" style="width:600px;height:514;">
+  <li>        
     <p> Graphical entry of the publication: <em>Ab initio</em> investigation of the role of the d-states occupation on the adsorption properties of H<sub>2</sub>, CO, CH<sub>4</sub> and CH<sub>3</sub>OH on the Fe<sub>13</sub>, Co<sub>13</sub>, Ni<sub>13</sub> and Cu<sub>13</sub> clusters</p>
+    <img src="/assets/images/007_instagram.png" alt="priscilla_nanoclusters" style="width:600px;height:514;">
     <p class="smallhspace"> </p>
   </li>
 </ul>
@@ -197,20 +197,9 @@ Hire me: directly johnatan.mucelini@gmail.com or by <a href="https://www.upwork.
 	</li>
 
 	<li>
-		<h4> Effective Coordination Number </h4>
-
-		<p>For each atom <em>i</em>, the effective coordination number (<em>ECN<sup>i<sup></em>) and the average bond distance (<em>d<sub>av</sub><sup>i</sup></em>) are defined as:</p>
-
-		<p><img src="/assets/images/Tex2Img_ecndavpij.png" alt="ECN^{i} = \sum_{j \neq i}^{M} P_{ij},\;\;\;\;\;\;d^{i}_{av} = \dfrac{ \sum\limits_{j \neq i}^{M} d_{ij}P_{ij}  }{ \sum\limits_{j \neq i}^{M} P_{ij} },\;\;\;\;\;\;P_{ij} = \exp \left[ 1- \left(\dfrac{2d_{ij}}{d_{av}^{i}+d_{av}^{j}}\right)^{6} \right]" width="612" height="109"/></p>
-    <!-- http://www.sciweavers.org/free-online-latex-equation-editor-->
-
-		<p>Where <em>P<sub>ij</sub></em> is a function that weights the effective coordination between the atoms <em>i</em> and <em>j</em>.</p>
-
-		<p>Note that <em>ECN<sup>i<sup></em> is a simple sum of <em>P<sub>ij</sub></em> for between <em>i</em> and each other atom <em>j</em>. While <em>d<sub>av</sub><sup>i</sup></em> is the sum of the distance between <em>i</em> and each other atom <em>j</em>, weighted by the <em>P<sub>ij</sub></em> terms.</p>
-
-		<p><a href="https://github.com/johnatanmucelini/Effective-Coordination-Number">This python script</a> calculates both the effective coordination number and average bond distance from almost any atomic structure file type. It works with any atomic structures file readable by ase (atomic simulation environment), including structures with periodic boundary conditions.</p>
-
-		<p>I just implemented this method which was developed by <a href="https://doi.org/10.1063/1.3533422">Da Silva, et al.</a>.</p>
+		<h4> Effective Coordination Number <a href="https://github.com/johnatanmucelini/Effective-Coordination-Number"> <img src="/assets/images/github_bw.png" alt="github icon" style="width:30px;height:30px;border:0;"> </a></h4>     
+    <p>This python script calculates, for each atom <em>i</em>, the effective coordination number (<em>ECN<sup>i<sup></em>) and the average bond distance (<em>d<sub>av</sub><sup>i</sup></em>), based on the weights the effective coordination (<em>P<sub>ij</sub></em>) with other atoms <em>j</em>.</p>
+    <p>My implementation works with any atomic structures file readable by ase (atomic simulation environment), including structures with periodic boundary conditions. Method developed by <a href="https://doi.org/10.1063/1.3533422">Da Silva, et al.</a>.</p>
 	</li>
 
 	<li>
