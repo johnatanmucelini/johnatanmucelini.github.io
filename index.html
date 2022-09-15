@@ -179,9 +179,49 @@ Hire me: directly johnatan.mucelini@gmail.com or by <a href="https://www.upwork.
 <p> Some codes that I developed or implemented: </p>
 <ul>
   <li>
-    <h4>Adsorption</h4>
-    <p>aa</p>
+    <h4>Molecular Adsorption by Surface Mapping Algorithm</h4>
+    <p>The present algorithm generates sets of atomic structures of adsorbed molecules, considering ridge structures and atoms as spheres of VDW radius.</p>
+    <table>
+      <thead>
+      <tr>
+      <th align="left">Input structure 1</th>
+      <th></th>
+      <th align="left">Input structure 2</th>
+      <th></th>
+      <th align="left">Result Structures</th>
+      <th></th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+      <td align="left">A.xyz <a target="_blank" rel="noopener noreferrer" href="/johnatanmucelini/Adsorption/blob/main/.figures/cluster.png"><img src="/johnatanmucelini/Adsorption/raw/main/.figures/cluster.png" alt="" style="max-width: 100%;"></a></td>
+      <td><strong>+</strong></td>
+      <td align="left">B.xyz <a target="_blank" rel="noopener noreferrer" href="/johnatanmucelini/Adsorption/blob/main/.figures/molecule.png"><img src="/johnatanmucelini/Adsorption/raw/main/.figures/molecule.png" alt="" style="max-width: 100%;"></a></td>
+      <td><strong>&gt;&gt;&gt;</strong></td>
+      <td align="left">AB_1.xyz <a target="_blank" rel="noopener noreferrer" href="/johnatanmucelini/Adsorption/blob/main/.figures/99.png"><img src="/johnatanmucelini/Adsorption/raw/main/.figures/99.png" alt="" style="max-width: 100%;"></a></td>
+      <td>AB_1_surf_km.xyz <a target="_blank" rel="noopener noreferrer" href="/johnatanmucelini/Adsorption/blob/main/.figures/99_surf_km.png"><img src="/johnatanmucelini/Adsorption/raw/main/.figures/99_surf_km.png" alt="" style="max-width: 100%;"></a></td>
+      </tr>
+      <tr>
+      <td align="left"></td>
+      <td></td>
+      <td align="left"></td>
+      <td></td>
+      <td align="left">...</td>
+      <td></td>
+      </tr>
+      <tr>
+      <td align="left"></td>
+      <td></td>
+      <td align="left"></td>
+      <td></td>
+      <td align="left">AB_n.xyz <a target="_blank" rel="noopener noreferrer" href="/johnatanmucelini/Adsorption/blob/main/.figures/97.png"><img src="/johnatanmucelini/Adsorption/raw/main/.figures/97.png" alt="" style="max-width: 100%;"></a></td>
+      <td>AB_n_surf_km.xyz <a target="_blank" rel="noopener noreferrer" href="/johnatanmucelini/Adsorption/blob/main/.figures/97_surf_km.png"><img src="/johnatanmucelini/Adsorption/raw/main/.figures/97_surf_km.png" alt="" style="max-width: 100%;"></a></td>
+      </tr>
+      </tbody>
+      </table>
+    <p>My methods mimic the ideia that two melecules could interact based on different chemical environments on the surface of the molecules. First, it get a representative sets of chemical environments of each one of the molecules. Second, we find structures combining the molecules through each possible pair of chemical environments in the molecules. Finally, this poll of structures is sampled to find a representative set of thepossible ways of interaction. </p>
   </li>
+
 	<li>
 		<h4>Surface Atoms Analysis  <a href="https://github.com/johnatanmucelini/Surface-Atoms-Analysis"> <img src="/assets/images/github_bw.png" alt="github icon" style="width:15px;height:15px;border:0;"> </a> </h4>
 		<p>This python script analyzes which atoms of a molecule (in xyz file, for instance) are exposed to the vacuum and is exposed area.</p>
