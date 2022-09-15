@@ -176,54 +176,15 @@ Hire me: directly johnatan.mucelini@gmail.com or by <a href="https://www.upwork.
 
 
 <h3> Codes </h3>
-<p> Some codes that I developed or implemented: </p>
 <ul>
   <li>
-    <h4>Molecular Adsorption by Surface Mapping Algorithm</h4>
-    <p>The present algorithm generates sets of atomic structures of adsorbed molecules, considering ridge structures and atoms as spheres of VDW radius.</p>
-    <table>
-      <thead>
-      <tr>
-      <th align="left">Input structure 1</th>
-      <th></th>
-      <th align="left">Input structure 2</th>
-      <th></th>
-      <th align="left">Result Structures</th>
-      <th></th>
-      </tr>
-      </thead>
-      <tbody>
-      <tr>
-      <td align="left">A.xyz <a target="_blank" rel="noopener noreferrer" href="/johnatanmucelini/Adsorption/blob/main/.figures/cluster.png"><img src="/johnatanmucelini/Adsorption/raw/main/.figures/cluster.png" alt="" style="max-width: 100%;"></a></td>
-      <td><strong>+</strong></td>
-      <td align="left">B.xyz <a target="_blank" rel="noopener noreferrer" href="/johnatanmucelini/Adsorption/blob/main/.figures/molecule.png"><img src="/johnatanmucelini/Adsorption/raw/main/.figures/molecule.png" alt="" style="max-width: 100%;"></a></td>
-      <td><strong>&gt;&gt;&gt;</strong></td>
-      <td align="left">AB_1.xyz <a target="_blank" rel="noopener noreferrer" href="/johnatanmucelini/Adsorption/blob/main/.figures/99.png"><img src="/johnatanmucelini/Adsorption/raw/main/.figures/99.png" alt="" style="max-width: 100%;"></a></td>
-      <td>AB_1_surf_km.xyz <a target="_blank" rel="noopener noreferrer" href="/johnatanmucelini/Adsorption/blob/main/.figures/99_surf_km.png"><img src="/johnatanmucelini/Adsorption/raw/main/.figures/99_surf_km.png" alt="" style="max-width: 100%;"></a></td>
-      </tr>
-      <tr>
-      <td align="left"></td>
-      <td></td>
-      <td align="left"></td>
-      <td></td>
-      <td align="left">...</td>
-      <td></td>
-      </tr>
-      <tr>
-      <td align="left"></td>
-      <td></td>
-      <td align="left"></td>
-      <td></td>
-      <td align="left">AB_n.xyz <a target="_blank" rel="noopener noreferrer" href="/johnatanmucelini/Adsorption/blob/main/.figures/97.png"><img src="/johnatanmucelini/Adsorption/raw/main/.figures/97.png" alt="" style="max-width: 100%;"></a></td>
-      <td>AB_n_surf_km.xyz <a target="_blank" rel="noopener noreferrer" href="/johnatanmucelini/Adsorption/blob/main/.figures/97_surf_km.png"><img src="/johnatanmucelini/Adsorption/raw/main/.figures/97_surf_km.png" alt="" style="max-width: 100%;"></a></td>
-      </tr>
-      </tbody>
-      </table>
+    <h4>Molecular Adsorption by Surface Mapping Algorithm <a href="https://github.com/johnatanmucelini/Adsorption"> <img src="/assets/images/github_bw.png" alt="github icon" style="width:17px;height:17px;border:0;"> </a></h4>
+    <p>This algorithm generates sets of atomic structures of two adsorbed molecules, considering ridge structures and atoms as spheres of VDW radius.</p>
     <p>My methods mimic the ideia that two melecules could interact based on different chemical environments on the surface of the molecules. First, it get a representative sets of chemical environments of each one of the molecules. Second, we find structures combining the molecules through each possible pair of chemical environments in the molecules. Finally, this poll of structures is sampled to find a representative set of thepossible ways of interaction. </p>
   </li>
 
 	<li>
-		<h4>Surface Atoms Analysis  <a href="https://github.com/johnatanmucelini/Surface-Atoms-Analysis"> <img src="/assets/images/github_bw.png" alt="github icon" style="width:15px;height:15px;border:0;"> </a> </h4>
+		<h4>Surface Atoms Analysis <a href="https://github.com/johnatanmucelini/Surface-Atoms-Analysis"> <img src="/assets/images/github_bw.png" alt="github icon" style="width:175px;height:17px;border:0;"> </a> </h4>
 		<p>This python script analyzes which atoms of a molecule (in xyz file, for instance) are exposed to the vacuum and is exposed area.</p>
 		<p><a href="https://github.com/johnatanmucelini/Surface-Atoms-Analysis"><img src="https://raw.githubusercontent.com/johnatanmucelini/surface_analysis_standalone/master/figure.png?token=AF3ZDJ3EMVHYIY3HY4G5773AQCTUS" alt="surface_analysis" style="width:600px;height:514;"></a></p>
     <p>The atoms exposed to the vacuum could be considered <em>surface atoms</em> and often play important roles in the physical-chemical properties of small clusters/nanoclusters/nanostructures. I strongly recommend this analysis for the investigations of structures with more than 20 atoms.</p>
@@ -231,13 +192,13 @@ Hire me: directly johnatan.mucelini@gmail.com or by <a href="https://www.upwork.
 	</li>
 
 	<li>
-		<h4>Effective Coordination Number <a href="https://github.com/johnatanmucelini/Effective-Coordination-Number"> <img src="/assets/images/github_bw.png" alt="github icon" style="width:15px;height:15px;border:0;"> </a></h4>     
+		<h4>Effective Coordination Number <a href="https://github.com/johnatanmucelini/Effective-Coordination-Number"> <img src="/assets/images/github_bw.png" alt="github icon" style="width:17px;height:17px;border:0;"> </a></h4>     
     <p>This python script calculates, for each atom <em>i</em>, the effective coordination number (<em>ECN<sup>i<sup></em>) and the average bond distance (<em>d<sub>av</sub><sup>i</sup></em>), based on the weights the effective coordination (<em>P<sub>ij</sub></em>) with other atoms <em>j</em>.</p>
     <p>My implementation works with any atomic structures file readable by ase (atomic simulation environment), including structures with periodic boundary conditions. Method developed by <a href="https://doi.org/10.1063/1.3533422">Da Silva, et al.</a>.</p>
 	</li>
 
 	<li>
-		<h4>Quandarium <a href="https://github.com/johnatanmucelini/Quandarium"><img src="/assets/images/github_bw.png" alt="github icon" style="width:15px;height:15px;border:0;"></a> </h4>
+		<h4>Quandarium <a href="https://github.com/johnatanmucelini/Quandarium"><img src="/assets/images/github_bw.png" alt="github icon" style="width:17px;height:17px;border:0;"></a> </h4>
 		<p>A python package that presents several tools to deal with Quantum Chemistry (QC) data of molecular systems (non-periodic): extraction of data from QC calculations; structural analysis, such as effective coordination bonds and surface atoms analysis (see above); Atomic to Molecular Featurization (see above); correlation and correlation significance analysis with bootstrap approaches.</p>
 		<p>The version presented here is an old version of Quandarium. I am developing the 1.0.0 version, which I expect to release soon, together with more tools and information about how to install and use it.</p>
 	</li>
