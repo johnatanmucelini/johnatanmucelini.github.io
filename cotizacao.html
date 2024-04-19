@@ -77,14 +77,14 @@ function readNumber() {
           
             // Display the number
             document.getElementById("result").innerText = "Sua cotização é: " + result.toLocaleString("pt-BR") + " (" + aliquota.toLocaleString("pt-BR") + "% do seu salário/renda).";
-            document.getElementById("result").innerText = "No método antigo seria: " + antigo + " (3% do salário/renda)";
+            document.getElementById("antigo").innerText = "No método antigo seria: " + antigo + " (3% do salário/renda)";
         } else {
             // Display an error message if the input is not a valid number
-            document.getElementById("result").innerText = "Please enter a valid number.";
+            document.getElementById("result").innerText = "Por favor, coloque um número.";
         }
     } else {
         // Display an error message if the input is empty
-        document.getElementById("result").innerText = "Please enter a number.";
+        document.getElementById("result").innerText = "Coloque um número.";
     }
 }
 </script>
