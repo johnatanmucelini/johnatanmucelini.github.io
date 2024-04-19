@@ -25,14 +25,14 @@
     }
     button {
         padding: 10px 20px;
-        background-color: #FF5733;
+        background-color: #4CAF50;
         color: white;
         border: none;
         border-radius: 5px;
         cursor: pointer;
     }
     button:hover {
-        background-color: #FF5733;
+        background-color: #45a049;
     }
     #result {
         margin-top: 20px;
@@ -45,6 +45,7 @@
     <input type="number" id="numberInput" placeholder="Salário/renda">
     <button onclick="readNumber()">Calcular Cotização</button>
     <p id="result"></p>
+    <p id="antigo"></p>
 </div>
     
 <script>
@@ -75,7 +76,8 @@ function readNumber() {
             var antigo =  Math.round(result * 0.03 * 100) / 100;
           
             // Display the number
-            document.getElementById("result").innerText = "Sua cotização é: " + result.toLocaleString("pt-BR") + " (" + aliquota.toLocaleString("pt-BR") + "% do seu salário/renda). No método de cotização antiga, seria " + antigo + " (3% do salário/renda)";
+            document.getElementById("result").innerText = "Sua cotização é: " + result.toLocaleString("pt-BR") + " (" + aliquota.toLocaleString("pt-BR") + "% do seu salário/renda).";
+            document.getElementById("result").innerText = "No método antigo seria: " + antigo + " (3% do salário/renda)";
         } else {
             // Display an error message if the input is not a valid number
             document.getElementById("result").innerText = "Please enter a valid number.";
