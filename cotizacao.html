@@ -37,7 +37,7 @@ function readNumber() {
             aliquota = Math.round(result * 10000 / number) / 100
           
             // Display the number
-            document.getElementById("result").innerText = "Sua cotização é: " + result + "(" + aliquota + "% do salário/renda)";
+            document.getElementById("result").innerText = "Sua cotização é: " + result.toLocaleString("pt-BR") + " (" + aliquota.toLocaleString("pt-BR") + "% do seu salário/renda)";
         } else {
             // Display an error message if the input is not a valid number
             document.getElementById("result").innerText = "Please enter a valid number.";
