@@ -73,11 +73,11 @@ function readNumber() {
             var aliquota = Math.round(result * 10000 / number) / 100;
 
             // antigo
-            var antigo =  Math.round(result * 0.03 * 100) / 100;
+            var antigo =  Math.round(number * 0.03 * 100) / 100;
           
             // Display the number
             document.getElementById("result").innerText = "Sua cotização é: " + result.toLocaleString("pt-BR") + " (" + aliquota.toLocaleString("pt-BR") + "% do seu salário/renda).";
-            document.getElementById("antigo").innerText = "No método antigo seria: " + antigo + " (3% do salário/renda)";
+            document.getElementById("antigo").innerText = "No método antigo seria: " + antigo.toLocaleString("pt-BR") + " (3% do salário/renda)";
         } else {
             // Display an error message if the input is not a valid number
             document.getElementById("result").innerText = "Por favor, coloque um número.";
