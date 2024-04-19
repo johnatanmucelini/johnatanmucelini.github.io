@@ -8,7 +8,7 @@
   </head>
   <body>
     
-<input type="number" id="numberInput" placeholder="Salário Mensal">
+<input type="number" id="numberInput" placeholder="Salário/Renda">
 <button onclick="readNumber()">Calcular Cotização</button>
 <p id="result"></p>
 
@@ -32,9 +32,12 @@ function readNumber() {
 
             // Arredondando
             result = Math.round(result * 100) / 100
+
+            // Aliquota 
+            aliquota = Math.round(result * 10000 / number) / 100
           
             // Display the number
-            document.getElementById("result").innerText = "Sua cotização é: " + result;
+            document.getElementById("result").innerText = "Sua cotização é: " + result + "(" + aliquota + "% do salário/renda)";
         } else {
             // Display an error message if the input is not a valid number
             document.getElementById("result").innerText = "Please enter a valid number.";
