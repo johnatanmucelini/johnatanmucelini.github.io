@@ -42,7 +42,7 @@
 <body>
 
 <div class="container">
-    <input type="number" id="numberInput" placeholder="Salário/renda">
+    <input type="number" id="numberInput" placeholder="Salário/renda em R$">
     <button onclick="readNumber()">Calcular Cotização</button>
     <p id="result"></p>
     <p id="antigo"></p>
@@ -589,8 +589,8 @@ function readNumber() {
             var fraseAleatoria = selecionarFraseAleatoria();
           
             // Display the number
-            document.getElementById("result").innerHTML = "Cotização: <b>" + result.toLocaleString("pt-BR") + "</b> (" + aliquota.toLocaleString("pt-BR") + "% do salário/renda).";
-            document.getElementById("antigo").innerText = "No método antigo: " + antigo.toLocaleString("pt-BR") + " (3% do salário/renda)";
+            document.getElementById("result").innerHTML = "Cotização: <b>R$ " + result.toLocaleString("pt-BR") + "</b> (" + aliquota.toLocaleString("pt-BR") + "% do salário/renda).";
+            document.getElementById("antigo").innerText = "No método antigo: R$ " + antigo.toLocaleString("pt-BR") + " (3% do salário/renda)";
             document.getElementById("frase").innerHTML = fraseAleatoria ;            
         } else {
             // Display an error message if the input is not a valid number
