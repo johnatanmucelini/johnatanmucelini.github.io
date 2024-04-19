@@ -46,7 +46,7 @@
     <button onclick="readNumber()">Calcular Cotização</button>
     <p id="result"></p>
     <p id="antigo"></p>
-    <p></p>
+    <br>
     <p id="frase"></p>
 </div>
     
@@ -111,7 +111,7 @@ function selecionarFraseAleatoria() {
     var indiceAleatorio = Math.floor(Math.random() * frases.length);
 
     // Retorna a frase correspondente ao índice aleatório selecionado
-    return frases[indiceAleatorio];
+    return '<i>"' + frases[indiceAleatorio] + '"</i> - Lenin';
 }
 
   
