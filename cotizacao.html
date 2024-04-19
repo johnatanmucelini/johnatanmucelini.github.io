@@ -4,14 +4,49 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Codes</title>    
-  </head>
-  <body>
-    
-<input type="number" id="numberInput" placeholder="Salário/renda">
-<button onclick="readNumber()">Calcular Cotização</button>
-<p id="result"></p>
+<title>Calculadora da Cotização</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        margin: 20px;
+    }
+    input[type="number"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+    button {
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #45a049;
+    }
+    #result {
+        margin-top: 20px;
+    }
+</style>
+</head>
+<body>
 
+<div class="container">
+    <input type="number" id="numberInput" placeholder="Salário/renda">
+    <button onclick="readNumber()">Calcular Cotização</button>
+    <p id="result"></p>
+</div>
+    
 <script>
 function readNumber() {
     // Get the input element
