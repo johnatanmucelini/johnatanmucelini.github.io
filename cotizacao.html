@@ -49,7 +49,7 @@
     <br>
     <p id="frase"></p>
     <br>
-    <p id="contato" style="color:gray; font-size: small;"></p>
+    <p id="contato" style="color:gray; font-size: small;">Algum problema? Avise (49)99978-6602.</p>
 </div>
     
 <script>
@@ -198,8 +198,7 @@ function readNumber() {
             // Display the number
             document.getElementById("result").innerText = "Sua cotização é: " + result.toLocaleString("pt-BR") + " (" + aliquota.toLocaleString("pt-BR") + "% do seu salário/renda).";
             document.getElementById("antigo").innerText = "No método antigo seria: " + antigo.toLocaleString("pt-BR") + " (3% do salário/renda)";
-            document.getElementById("frase").innerHTML = fraseAleatoria ;
-            document.getElementById("contato").innerText = "Algum problema nas frases? avise (49)99978-6602";
+            document.getElementById("frase").innerHTML = fraseAleatoria ;            
         } else {
             // Display an error message if the input is not a valid number
             document.getElementById("result").innerText = "Por favor, coloque um número.";
