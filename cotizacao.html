@@ -28,10 +28,13 @@ function readNumber() {
         // Check if the conversion was successful (not NaN)
         if (!isNaN(number)) {
             // Calculando cotização
-            var result = (7.72*Math.pow(10, -7))* Math.pow(number, ^2,135);
+            var result = (7.72*Math.pow(10, -7))* Math.pow(number, 2.135);
+
+            // Arredondando
+            result = Math.round(result * 100) / 100
           
             // Display the number
-            document.getElementById("result").innerText = "Sua cotização é: " + Math.round(result * 100) / 100;
+            document.getElementById("result").innerText = "Sua cotização é: " + result;
         } else {
             // Display an error message if the input is not a valid number
             document.getElementById("result").innerText = "Please enter a valid number.";
