@@ -69,10 +69,13 @@ function readNumber() {
             result = Math.round(result * 100) / 100
 
             // Aliquota 
-            aliquota = Math.round(result * 10000 / number) / 100
+            var aliquota = Math.round(result * 10000 / number) / 100;
+
+            // antigo
+            var antigo =  Math.round(result * 100 * 0.03) / 100
           
             // Display the number
-            document.getElementById("result").innerText = "Sua cotização é: " + result.toLocaleString("pt-BR") + " (" + aliquota.toLocaleString("pt-BR") + "% do seu salário/renda)";
+            document.getElementById("result").innerText = "Sua cotização é: " + result.toLocaleString("pt-BR") + " (" + aliquota.toLocaleString("pt-BR") + "% do seu salário/renda). No método de cotização antiga, seria " + antigo + " (3% do salário/renda);
         } else {
             // Display an error message if the input is not a valid number
             document.getElementById("result").innerText = "Please enter a valid number.";
