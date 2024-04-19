@@ -8,8 +8,8 @@
   </head>
   <body>
     
-<input type="number" id="numberInput" placeholder="Enter a number">
-<button onclick="readNumber()">Read Number</button>
+<input type="number" id="numberInput" placeholder="Salário Mensal">
+<button onclick="readNumber()">Calcular Cotização</button>
 <p id="result"></p>
 
 <script>
@@ -27,8 +27,11 @@ function readNumber() {
         
         // Check if the conversion was successful (not NaN)
         if (!isNaN(number)) {
+            // Calculando cotização
+            var result = (7.72*Math.pow(10, -7))* Math.pow(number, ^2,135);
+          
             // Display the number
-            document.getElementById("result").innerText = "The number you entered is: " + number;
+            document.getElementById("result").innerText = "Sua cotização é: " + number;
         } else {
             // Display an error message if the input is not a valid number
             document.getElementById("result").innerText = "Please enter a valid number.";
