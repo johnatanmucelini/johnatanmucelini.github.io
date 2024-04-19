@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Codes</title>    
+  </head>
+  <body>
+   <main class="container">
+      <section>
+        <h3 id="main-heading">Compund Interest Calculator</h3>
+        <p>
+          Compound Interest was called the 8th Wonder of the World by Albert
+          Einstien. It is what makes your money grow so that even small amounts
+          can over time create a huge corpus. ET Money’s compound interest
+          calculator is a free, online tool that you can use to find out how
+          your small savings will accumulate over time to make you wealthy.
+        </p>
+        <div class="main">
+          <form class="form">
+            <p>I want to invest</p>
+            <input
+              type="number"
+              class="investment-amount"
+              placeholder="Rs. per month"
+              step="1000"
+              min="0"
+            />
+            <p>Expected rate of interest (p.a.)</p>
+            <input
+              type="number"
+              class="expected-interest"
+              placeholder="%"
+              min="0"
+            />
+            <p>Investment Period</p>
+            <label>Years</label>
+            <input type="number" id="years" placeholder="years" min="0" />
+            <label>Months</label>
+            <input
+              type="number"
+              id="months"
+              placeholder="months"
+              max="11"
+              min="0"
+            /><br />
+            <!-- <button type="submit" class="submit-btn">Submit</button> -->
+
+            <p>Maturity Amount Rs.<span class="maturity-amount">0</span></p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
